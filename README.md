@@ -13,7 +13,7 @@ To run the Docker container directly from Docker Hub and start using the API
 simply run the following command:
 
 ```bash
-$ docker run -ti -p 5000:5000 deephdc/deep-oc-generic-container
+$ docker run -ti -p 5000:5000 deephdc/deep-oc-phytoplankton-classification
 ```
 
 This command will pull the Docker container grom the Docker Hub
