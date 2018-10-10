@@ -61,4 +61,4 @@ RUN curl -o ./phytoplankton-classification-theano/data/data_splits/synsets.txt  
 EXPOSE 5000
 
 RUN apt-get install nano
-#CMD deepaas-run
+CMD deepaas-run
