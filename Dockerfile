@@ -37,10 +37,8 @@ RUN git clone https://github.com/indigo-dc/phytoplankton-classification-theano -
     cd ..
 
 
-RUN git clone https://github.com/indigo-dc/deepaas && \
-    cd deepaas && \
-    pip install -U . && \
-    cd ..
+#Install deepaas
+RUN pip install deepaas
 
 
 ENV SWIFT_CONTAINER_PHYTOPLANKTON https://cephrgw01.ifca.es:8080/swift/v1/plankton/
